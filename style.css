@@ -8,43 +8,61 @@ body {
 
 /* Header Styling */
 header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.ua-crimson {
-    color: #990000; /* Official UA Crimson */
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.ua-grey {
-    color: #828282; /* Official UA Grey */
-    font-size: 18px;
-}
-
-/* Navigation */
-nav {
-    background-color: #f0f0f0; /* Light grey navigation background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
+    background-color: #f8f8f8; /* Light background */
+    border-bottom: 1px solid #ccc; /* Optional separator line */
+}
+
+/* Header Columns */
+.header-column {
+    flex: 1; /* Each column takes up equal space */
+    text-align: center; /* Center content inside each column */
+}
+
+
+/* Logo Styling */
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Text Styling */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #990000; /* UA Crimson */
+}
+
+header h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #828282; /* UA Grey */
+}
+
+/* Navigation Styling */
+nav {
     text-align: center;
+    margin-top: 10px;
 }
 
 nav a {
     color: #003366; /* Dark blue links */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
     font-weight: bold;
 }
 
 nav a:hover {
     color: #990000; /* Crimson on hover */
-    text-decoration: underline;
 }
 
 /* Footer Styling */
@@ -66,4 +84,16 @@ main {
     border: 1px solid #ccc; /* Optional border */
     border-radius: 8px; /* Optional rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Left Logo */
+.logo-left {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Right Logo */
+.logo-right {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
 }
