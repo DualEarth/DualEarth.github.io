@@ -1,2 +1,2 @@
-# earthsim.github.io
-Homepage for Jonathan M. Frame's lab at University of Alabama
+# DualEarth.github.io
+Homepage for Jonathan M. Frame's lab at University of Alabama - The Dynamic Earth Simulation Laboratory. Our mission is to simulation Earth's dynamic processes for two distinct, but overlapping objectives: 1) as a mechanism to learn about the world around us, and 2) as a utility for making predictions of real future scenarios (forecasts) and hypothetical scenarios that can inform actions. 
