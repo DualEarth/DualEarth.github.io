@@ -162,3 +162,26 @@ main {
     border-radius: 8px; /* Optional for rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional for styling */
 }
+
+/* Introduction Section */
+.introduction {
+    margin: 20px;
+}
+
+/* Department Info Section */
+.department-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px; /* Space between text and image */
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin: 20px;
+    line-height: 1.0;
+}
+
+.department-info img {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+}
