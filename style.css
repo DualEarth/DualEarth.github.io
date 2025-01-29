@@ -185,3 +185,46 @@ main {
     border-radius: 8px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
 }
+
+/* Papers Section */
+#papers {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Individual Paper Entry */
+.paper {
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Divider */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.paper-image {
+    max-width: 384px; /* ~4 inches */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Paper Link */
+.paper a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+}
+
+.paper a:hover {
+    text-decoration: underline;
+}
+
+/* Paper Description */
+.paper-description {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
