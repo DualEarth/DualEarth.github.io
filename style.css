@@ -228,3 +228,16 @@ main {
     color: #555;
     font-style: italic;
 }
+
+/* Subsection styling for DL/PIML projects */
+#deep-learning-piml h3 {
+    font-size: 14px;
+    color: #990000; /* UA Crimson */
+    margin-left: 0px; /* No indent for headers */
+    margin-top: 20px;
+}
+
+#deep-learning-piml h3 + p {
+    margin-left: 20px; /* Indent only the paragraph immediately following each h3 */
+    margin-bottom: 10px;
+}
