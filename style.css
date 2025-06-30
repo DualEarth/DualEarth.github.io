@@ -210,6 +210,16 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Image Styling */
+.projects-image {
+    max-width: 192px; /* ~2 inches */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Paper Link */
 .paper a {
     font-size: 16px;
