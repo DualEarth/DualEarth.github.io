@@ -251,3 +251,15 @@ main {
     margin-left: 20px; /* Indent only the paragraph immediately following each h3 */
     margin-bottom: 10px;
 }
+
+.zoomable-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: zoom-in;
+}
+
+.zoomable-image:hover {
+    transform: scale(4.5); /* Enlarge on hover */
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
