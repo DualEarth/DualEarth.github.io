@@ -258,7 +258,7 @@ main {
 }
 
 .zoomable-image:hover {
-    transform: scale(4.5); /* Enlarge on hover */
+    transform: scale(4.0); /* Enlarge on hover */
     z-index: 10;
     position: relative;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
